@@ -52,7 +52,7 @@ const nav = useNavigate();
         
     };
     
-    const response = await fetch('http://localhost:4000/api/users/register', requestOptions)
+    const response = await fetch('https://social-networking.onrender.com/api/users/register', requestOptions)
     const Data = await response.json();
 
     if(!Data.error){
