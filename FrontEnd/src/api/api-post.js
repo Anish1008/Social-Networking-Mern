@@ -11,6 +11,7 @@ const create = async (params, credentials, post) => {
         headers: { 
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
        'Authorization': credentials.t
         },
         authorization : credentials.t,
@@ -34,7 +35,9 @@ const getFeed = async (params, credentials,signal)=>{
         headers: { 
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
+        
         },
         authorization : credentials.t,
         
@@ -59,6 +62,7 @@ const getFeedUser = async (params, credentials,signal)=>{
         headers: { 
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
         },
         authorization : credentials.t,
@@ -82,6 +86,7 @@ const findPeoplee = async (params, credentials,signal) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t,
          signal: signal,
 
@@ -99,6 +104,7 @@ const remove = async (params, credentials) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
       }
     })
@@ -118,6 +124,7 @@ try {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
       },
       body: JSON.stringify({userId:params.userId, followId: followId})
@@ -140,6 +147,7 @@ try {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
       },
       body: JSON.stringify({userId:params.userId, unfollowId: unfollowId})
@@ -161,6 +169,7 @@ const Like =async(params ,credentials, postId  )=>{
       headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
       },
       body :JSON.stringify({userId:params.userId, postId: postId})
@@ -183,6 +192,7 @@ const unlike =async(params ,credentials, postId  )=>{
       headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
       },
       body :JSON.stringify({userId:params.userId, postId: postId})
@@ -201,6 +211,7 @@ const comment = async (params, credentials, postId, comment) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
       },
       body: JSON.stringify({userId:params.userId, postId: postId, comment: comment})
@@ -218,6 +229,7 @@ const read = async (params, credentials, signal) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t
       }
   })
@@ -242,6 +254,7 @@ const update = async (params, credentials, Values) => {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization':credentials.t
       },
       body:  JSON.stringify(Values),
@@ -260,6 +273,7 @@ console.log(params.userId , postId , comment)
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization':credentials.t
       },
       body: JSON.stringify({userId:params.userId, postId: postId, comment: comment})
@@ -278,6 +292,7 @@ const searchuser = async (params, credentials,se) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t,
       }
     })    
@@ -294,6 +309,7 @@ const getChat = async (params, credentials,se) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t,
       },
       body: JSON.stringify({userId:params.userId,id:se})
@@ -312,6 +328,7 @@ const getMessage = async (params, credentials,se) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t,
       }
     })    
@@ -329,6 +346,7 @@ const setMessage = async (params, credentials,se) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t,
       },
       body:JSON.stringify(params)
@@ -347,6 +365,7 @@ const fetchChats = async (params, credentials,se) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'Authorization': credentials.t,
       }
     })    

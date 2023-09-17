@@ -38,7 +38,8 @@ app.use(
 
 app.use(bodyParser.json());
 
-app.use(cors());
+app.use(cors({origin: "https://social-media-r4cj.onrender.com"}));
+app.options('*', cors())
 // Passport middleware
 app.use(passport.initialize());
 // Passport config
