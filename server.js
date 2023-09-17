@@ -38,7 +38,7 @@ app.use(
 
 app.use(bodyParser.json());
 
-app.use(cors({ origin: true }));
+app.use(cors());
 // Passport middleware
 app.use(passport.initialize());
 // Passport config
