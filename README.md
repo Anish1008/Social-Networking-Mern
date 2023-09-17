@@ -84,10 +84,6 @@ A MERN stack based project on social media application with Realtime Chat. It is
 ![search](https://github.com/Anish1008/Social-Networking-Mern/assets/89252366/25d32c4a-9e8b-47a0-89a2-746f2b17327d)
 
 - Chat
-
-
-![Screen Shot 2022-09-13 at 5 13 51 PM](https://user-images.githubusercontent.com/77838959/189940972-062de411-9836-4a7b-82aa-19f9b58bcfc3.png)
-- Chat
 ![chats](https://github.com/Anish1008/Social-Networking-Mern/assets/89252366/b938a6af-6a89-467c-a944-1f2706f8811f)
 
 - HomePage
