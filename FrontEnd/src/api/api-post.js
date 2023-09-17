@@ -2,7 +2,7 @@
 
 
 
-const baseUrl = "https://social-media-r4cj.onrender.com";
+const baseUrl = "https://social-networking.onrender.com";
 const create = async (params, credentials, post) => {
 
   try {
