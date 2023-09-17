@@ -67,7 +67,38 @@ A MERN stack based project on social media application with Realtime Chat. It is
   - Add your own bio
 - password is stored in database in encrypted format with salt.
  
- 
+ # Screenshots
+
+ - HomePage
+
+ ![Homepage](https://github.com/Anish1008/Social-Networking-Mern/assets/89252366/4eb0056e-7f67-437c-a46c-6db4623ba485)
+
+- Post
+
+![Post](https://github.com/Anish1008/Social-Networking-Mern/assets/89252366/7be78456-ff12-4134-b1ad-a8c21b01debc)
+
+- Profile
+![profile](https://github.com/Anish1008/Social-Networking-Mern/assets/89252366/c09a7970-b8cf-498e-92f9-cb8142255fa4)
+
+- Search
+![search](https://github.com/Anish1008/Social-Networking-Mern/assets/89252366/25d32c4a-9e8b-47a0-89a2-746f2b17327d)
+
+- Chat
+
+
+![Screen Shot 2022-09-13 at 5 13 51 PM](https://user-images.githubusercontent.com/77838959/189940972-062de411-9836-4a7b-82aa-19f9b58bcfc3.png)
+- Chat
+![chats](https://github.com/Anish1008/Social-Networking-Mern/assets/89252366/b938a6af-6a89-467c-a944-1f2706f8811f)
+
+- HomePage
+
+![startpage](https://github.com/Anish1008/Social-Networking-Mern/assets/89252366/88d0681e-b749-4093-bea2-dd48cc803a20)
+
+
+- Login and Register 
+![Screen Shot 2022-09-13 at 5 34 48 PM](https://user-images.githubusercontent.com/77838959/189944829-f3f20167-1389-4526-b801-a952c28c9ce0.png)
+![Screen Shot 2022-09-13 at 5 34 53 PM](https://user-images.githubusercontent.com/77838959/189944856-0d310de5-943b-41aa-9192-7cee878b42b7.png)
+![Screen Shot 2022-09-13 at 5 34 59 PM](https://user-images.githubusercontent.com/77838959/189944874-3d63b0c5-3db9-4ff6-8429-143c1058fbfd.png)
 
 # What you need to run this application:
 
